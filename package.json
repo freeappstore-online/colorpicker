@@ -1,13 +1,11 @@
 {
-  "name": "colorpicker",
+  "name": "freecolorpickerapp",
   "private": true,
   "packageManager": "pnpm@10.30.3",
   "engines": { "node": ">=22" },
   "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
   "scripts": {
-    "dev": "pnpm --filter @colorpicker/web dev",
-    "build": "pnpm --filter @colorpicker/web build",
-    "preview": "pnpm --filter @colorpicker/web preview",
-    "typecheck": "pnpm --filter @colorpicker/web exec tsc -b"
+    "dev": "pnpm --filter @freecolorpickerapp/web dev",
+    "build": "pnpm --filter @freecolorpickerapp/web build"
   }
 }
