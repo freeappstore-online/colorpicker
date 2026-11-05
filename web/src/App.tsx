@@ -444,7 +444,7 @@ export default function App() {
         {/* Title */}
         <h1
           style={{
-            fontFamily: "var(--font-display)",
+            fontFamily: "Fraunces, Georgia, serif",
             fontSize: "1.75rem",
             fontWeight: 700,
             margin: 0,
@@ -487,7 +487,7 @@ export default function App() {
               flex: 1,
               padding: "0.5rem 0.75rem",
               fontSize: "0.95rem",
-              fontFamily: "var(--font-body)",
+              fontFamily: "Manrope, system-ui, sans-serif",
               fontWeight: 600,
               background: "var(--color-panel)",
               color: "var(--color-ink)",
@@ -511,7 +511,7 @@ export default function App() {
               fontWeight: 600,
               cursor: palette.includes(hex) ? "default" : "pointer",
               whiteSpace: "nowrap",
-              fontFamily: "var(--font-body)",
+              fontFamily: "Manrope, system-ui, sans-serif",
             }}
           >
             {palette.includes(hex) ? "Saved" : "Save"}
@@ -562,7 +562,7 @@ export default function App() {
                     color: "var(--color-muted)",
                     width: 30,
                     textAlign: "left",
-                    fontFamily: "var(--font-body)",
+                    fontFamily: "Manrope, system-ui, sans-serif",
                   }}
                 >
                   {label}
@@ -571,7 +571,7 @@ export default function App() {
                   style={{
                     fontSize: "0.85rem",
                     fontWeight: 500,
-                    fontFamily: "var(--font-body)",
+                    fontFamily: "Manrope, system-ui, sans-serif",
                   }}
                 >
                   {value}
@@ -585,7 +585,7 @@ export default function App() {
                     copied === label
                       ? "var(--color-accent)"
                       : "var(--color-muted)",
-                  fontFamily: "var(--font-body)",
+                  fontFamily: "Manrope, system-ui, sans-serif",
                 }}
               >
                 {copied === label ? "Copied!" : "Copy"}
@@ -603,7 +603,7 @@ export default function App() {
                 fontWeight: 600,
                 color: "var(--color-muted)",
                 margin: "0 0 8px",
-                fontFamily: "var(--font-body)",
+                fontFamily: "Manrope, system-ui, sans-serif",
               }}
             >
               Saved Palette
@@ -631,7 +631,7 @@ export default function App() {
                 fontWeight: 600,
                 color: "var(--color-muted)",
                 margin: "0 0 8px",
-                fontFamily: "var(--font-body)",
+                fontFamily: "Manrope, system-ui, sans-serif",
               }}
             >
               Recent Colors
@@ -665,7 +665,7 @@ export default function App() {
               color: "var(--color-muted)",
               fontSize: "0.75rem",
               textDecoration: "none",
-              fontFamily: "var(--font-body)",
+              fontFamily: "Manrope, system-ui, sans-serif",
             }}
           >
             Part of FreeAppStore — free forever
